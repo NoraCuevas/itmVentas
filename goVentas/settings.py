@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-+we5g3*bxceyp_or@&uyefe@z8%m!avpxkc5$(dhgh2xqs=cr5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','54.197.13.158','172.31.81.175']
 
 
 # Application definition
@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'djangodb', 
         'USER':'djangodbuser',
         'PASSWORD':'64lgDAdr28NbvED%zI1wE$9*oAc3Sgqn', 
-        'HOST': 'localhost', 
+        'HOST': '172.31.95.198', 
         'PORT': '5432',
     },
     'clients':{
@@ -94,7 +94,7 @@ DATABASES = {
         'NAME': 'gocontroldb', 
         'USER':'gocontroluserdb',
         'PASSWORD':'GBInf^r51Jz7gXtIMntfcoM9r03lL#ET', 
-        'HOST': 'localhost', 
+        'HOST': '172.31.95.198', 
         'PORT': '5432',
     }
 }
