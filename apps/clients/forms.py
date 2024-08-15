@@ -8,7 +8,7 @@ class frmCreateClient(forms.Form):
 		label=_('Código'),
 		# initial='',
 		max_length = settings.TEXTBOXMAXLENGTH,
-		widget=forms.TextInput(attrs={'class':'form-control form-control-sm','type':'text','placeholder':'Código','readonly':False,'maxlength':settings.TEXTBOXMAXLENGTH}),
+		widget=forms.TextInput(attrs={'class':'form-control form-control-sm','type':'text','placeholder':'Ingrese código','readonly':False,'maxlength':settings.TEXTBOXMAXLENGTH}),
 		required=True,
 	)
 	razonSocialClt = forms.CharField(
